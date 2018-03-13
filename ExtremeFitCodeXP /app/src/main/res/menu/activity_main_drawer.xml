@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/account_heart"
+            android:title="Mapeamento de Dores" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/bookmark_check"
+            android:title="Dicas dos Especialistas" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/map_marker_radius"
+            android:title="Eventos" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ferramentas" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/account"
+                android:title="Perfil" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
