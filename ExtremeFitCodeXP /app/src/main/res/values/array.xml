@@ -1,6 +1,0 @@
-<resources>
-    <string-array name="spinnerItems">
-        <item>Masculino</item>
-        <item>Feminino</item>
-    </string-array>
-</resources>
